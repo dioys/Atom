@@ -1,0 +1,6 @@
+# for building and checking Atom (not needed to just run it)
+pyinstaller>=6.6        # scripts/build_exe.py
+scipy>=1.11             # scripts/make_character.py (cutting an expression sheet into pictures)
+ruff>=0.5               # the lint check in CI
+jsonschema>=4.20        # tests/test_pbip.py (optional)
+referencing>=0.30       # tests/test_pbip.py (optional)

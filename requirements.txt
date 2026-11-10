@@ -1,0 +1,18 @@
+PySide6>=6.6
+anthropic>=0.40
+openai>=1.40
+openpyxl>=3.1
+python-docx>=1.1
+pypdf>=4.0
+python-pptx>=1.0
+Pillow>=10.0
+SpeechRecognition>=3.14
+pandas>=2.2
+matplotlib>=3.8
+watchdog>=4.0
+ddgs    # lets Atom check facts on the internet (websearch.py)
+numpy>=1.26    # the voice effects (robot.py)
+kokoro-onnx>=0.4    # the boy voice, made on this PC (kokovoice.py; then run: python kokovoice.py setup)
+pywinauto>=0.6.8; sys_platform == "win32"    # lets Atom press Refresh in Power BI after building a report (pbiauto.py)
+soundcard>=0.4.4    # lets Atom hear a call (loopback.py)
+pytesseract>=0.3.10    # lets Atom read the screen (screenreader.py; also install the Tesseract program)
