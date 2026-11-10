@@ -1,0 +1,65 @@
+{
+  "name": "Jester",
+  "height": 190,
+  "talk": [
+    "talk_a",
+    "talk_b",
+    "talk_c"
+  ],
+  "rest": "smug",
+  "states": {
+    "idle": [
+      "smug"
+    ],
+    "talking": [
+      "talk_a"
+    ],
+    "thinking": [
+      "thinking"
+    ],
+    "listening": [
+      "curious"
+    ],
+    "happy": [
+      "happy",
+      "laughing"
+    ],
+    "laughing": [
+      "laughing"
+    ],
+    "proud": [
+      "smug",
+      "happy"
+    ],
+    "worried": [
+      "nervous"
+    ],
+    "sad": [
+      "sad",
+      "crying"
+    ],
+    "surprised": [
+      "surprised",
+      "shocked"
+    ],
+    "curious": [
+      "curious"
+    ],
+    "annoyed": [
+      "annoyed"
+    ],
+    "sleepy": [
+      "sleepy"
+    ],
+    "looking": [
+      "smug"
+    ]
+  },
+  "icon": "happy",
+  "face": [
+    70,
+    70,
+    260,
+    260
+  ]
+}
